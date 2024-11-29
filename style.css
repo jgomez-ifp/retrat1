@@ -1,0 +1,543 @@
+* {
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+body{
+    background: lavender;
+}
+
+.cap {
+    top: 50px;
+}
+
+    .cara{
+        width: 600px;
+        height: 900px;
+        background: #e4b7a9;
+        border-radius: 500px 500px 600px 600px / 800px 800px 1000px 1000px;
+        margin: 0 auto;
+    } 
+
+        .linia{
+            position: absolute;
+        }
+
+            .linia .linia1{
+                width: 400px;
+                height: 301px;
+                border-radius: 50%;
+                background: #e4b7a9;
+                z-index: 100;
+                top: 179px;
+                left: 4px;
+            }
+
+            .linia .linia2{
+                width: 400px;
+                height: 301px;
+                border-radius: 50%;
+                background: #e4b7a9;
+                z-index: 100;
+                left: 196px;
+                bottom: 120px;
+            }
+
+        .cabell{
+            height: 300px;
+            width: 650px;
+            background: rgb(47, 36, 15);
+            border-radius: 1000px 1000px 50px 50px;
+            text-align: center;
+            right: 25px;
+        }
+
+        .cabell:active{
+            opacity: 0%;
+        }
+
+            .cabell .cabellder{
+                height: 1500px;
+                width: 700px;
+                background: rgb(47, 36, 15);
+                border-radius: 1000px 1000px 50px 50px;
+                text-align: center;
+                right: 25px;
+                z-index: -200;
+            }
+
+            .cabell .pel1{
+                width: 500px;
+                height: 1400px;
+                background: transparent;
+                border-radius: 50%;
+                bottom: 1360px;
+                z-index: 1000;
+                box-shadow: 35px -35px 0px rgb(60, 46, 19);
+                left: 67px;
+            }
+
+            .cabell .pel2{
+                width: 500px;
+                height: 1400px;
+                background: transparent;
+                border-radius: 50%;
+                bottom: 2760px;
+                z-index: 1000;
+                box-shadow: -35px -35px 0px rgb(60, 46, 19);
+                right: 67px;
+            }
+
+            .cabell .calva1 {
+                width: 50px;
+                height: 200px;
+                border-radius: 0px 50% 50% 0px;
+                background: rgb(47, 36, 15);
+                bottom: 4100px;
+                z-index: 999;
+                left: 270px;
+                transform: rotate(-19deg);
+            }
+            .cabell .calva2 {
+                width: 50px;
+                height: 200px;
+                border-radius: 0px 50% 50% 0px;
+                background: rgb(47, 36, 15);
+                z-index: 999;
+                bottom: 4300px;
+                right: 270px;
+                transform: rotate(19deg);
+            }
+
+        .front{
+            height: 200px;
+            background: transparent;
+            z-index: 200;
+        }
+
+            .front .celle1{
+                width: 200px;
+                height: 50px;
+                background: rgb(47, 36, 15);
+                border-radius: 900px 0px 0px 0px;
+                right: 150px;
+                top: 50px;
+                transform: rotate(7deg);
+            }
+
+            .front .celle1 .tapa1{
+                width: 300px;
+                height: 100px;
+                background: #e4b7a9;
+                top: 20px;
+                right: 35px;
+                border-radius: 900px 0px 0px 0px;
+            }
+
+            .front .celle2{
+                width: 200px;
+                height: 50px;
+                background: rgb(47, 36, 15);
+                border-radius: 0px 900px 0px 0px;
+                left: 150px;
+                transform: rotate(-7deg);
+            }
+
+            .front .celle2 .tapa2{
+                width: 300px;
+                height: 100px;
+                background: #e4b7a9;
+                top: 20px;
+                right: 63px;
+                border-radius: 0px 900px 0px 0px;
+            }
+
+
+
+        .mirada{
+            height: 70px;
+            text-align: center;
+            bottom: 110px;
+            z-index: 300;
+        }
+
+            .mirada .uDre{
+                height: 70px;
+                width: 120px;
+                background: white;
+                border-radius: 600% 0px 500% 0px / 700% 0px 500% 0px;
+                left: 130px;
+                bottom: 90px;
+                transform: rotate(20deg);
+            }
+
+            .mirada .uEsq{
+                height: 70px;
+                width: 120px;
+                background: white;
+                border-radius: 0px 600% 0px 500% / 0px 700% 0px 500%;
+                transform: rotate(-20deg);
+                right: 130px;
+            }
+
+            .mirada .uDre .ralla{
+                height: 70px;
+                width: 120px;
+                background: transparent;
+                border-radius: 600% 0px 500% 0px / 700% 0px 500% 0px;
+                box-shadow: 0px -7px 0px 0px  black;
+                z-index: 500;
+                position: absolute;
+            }
+
+            .mirada .uEsq .ralla{
+                height: 70px;
+                width: 120px;
+                background: transparent;
+                border-radius: 0px 600% 0px 500% / 0px 700% 0px 500%;
+                box-shadow: 0px -7px 0px 0px  black;
+                z-index: 500;
+                position: absolute;
+
+            }
+
+            .mirada .uDre .iris{
+                height: 60px;
+                width: 60px;
+                background: #66695E;
+                border-radius: 50%;
+                margin: 20px;
+                left: 10px;
+                top: 5px;
+            }
+
+            .mirada .uEsq .iris{
+                height: 60px;
+                width: 60px;
+                background: #66695E;
+                border-radius: 50%;
+                margin: 20px;
+                left: 10px;
+                top: 5px;
+            }
+
+            .mirada .uEsq .iris .pupila {
+                height: 30px;
+                width: 30px;
+                background: black;
+                border-radius: 50%;
+                margin: 20px;
+                right: 5px;
+                top: 15px;
+            }
+
+            .mirada .uDre .iris .pupila {
+                height: 30px;
+                width: 30px;
+                background: black;
+                border-radius: 50%;
+                margin: 20px;
+                right: 5px;
+                top: 15px;
+            }
+
+        .orelles {
+            position: absolute;
+            z-index: 10000;
+        }
+
+            .orelles .ore1{
+                width: 70px;
+                height: 170px;
+                background: #e4b7a9;
+                border-radius: 50%;
+                transform: rotate(-12deg);
+                bottom: 150px;
+                right: 30px;
+            }
+
+            .orelles .ore1 .ore1-1 {
+                width: 40px;
+                height: 100px; 
+                background: transparent;
+                border-radius: 50%;
+                top: 20px; 
+                box-shadow: 0px -4px 0px  #C49F8D;
+            }
+
+            .orelles .are1{
+                width: 20px;
+                height:25px;
+                background: yellow;
+                clip-path: polygon(13% 0, 86% 0, 74% 100%, 22% 100%);
+                bottom: 165px;
+                right: 20px;
+            }
+
+            .orelles .are2 {
+                width: 16px;
+                height:16px;
+                background: lightcyan;
+                clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+                bottom: 198px;
+                right: 37px;
+                animation: destello 2s ease-in-out infinite;
+            }
+
+        .nas {
+            width: 100px;
+            height: 70px;
+            border-radius: 50%;
+            background: transparent;
+            position: absolute;
+            left: 250px;
+            top: 570px;
+            z-index: 500;
+        }
+
+            .nas .baix {
+                width: 100px;
+                height: 70px;
+                border-radius: 50%;
+                background: transparent;
+                position: absolute;
+                z-index: 501;
+                box-shadow: 0px -2px 0px #C49F8D;
+            }
+
+            .nas .dalt {
+                width: 100px;
+                height: 70px;
+                border-radius: 50%;
+                background: transparent;
+                position: absolute;
+                z-index: 501;
+                bottom: 5px;
+                box-shadow: 0px 2px 0px #C49F8D;
+            }
+
+            .nas .esque {
+                width: 50px;
+                height: 170px;
+                background: transparent;
+                border-radius: 50%;
+                bottom: 160px;
+                right: 40px;
+                box-shadow: 2px 0px 0px #C49F8D;
+            }
+
+            .nas .dret {
+                width: 50px;
+                height: 170px;
+                background: transparent;
+                border-radius: 50%;
+                left: 40px; 
+                bottom: 330px;
+                box-shadow: -2px 0px 0px #C49F8D;
+                z-index: 501;
+            }
+
+            .nas .lado1 {
+                width: 30px;
+                height: 30px;
+                background: transparent;
+                border-radius: 50%;
+                bottom: 310px;
+                right: 40px;
+                box-shadow: -2px 0px 0px #C49F8D;
+                transform: rotate(-20deg);
+                z-index: 500;
+            }
+
+            .nas .lado2 {
+                width: 30px;
+                height: 30px;
+                background: transparent;
+                border-radius: 50%;
+                bottom: 340px;
+                left: 40px;
+                box-shadow: 2px 0px 0px #C49F8D;
+                transform: rotate(20deg);
+                z-index: 500;
+            }
+
+        .comisura {
+            width: 175px;
+            height: 20px;
+            background: transparent;
+            border-radius: 0px 0px 50% 50%;
+            position: absolute;
+            z-index: 250;
+            left: 212px;
+            bottom:169px;
+            box-shadow: 0px 3px 0px black;
+        }
+
+        .boca{
+            height: 60px;
+            width: 150px;
+            margin: 0 auto;
+            top: 120px;
+        }
+
+            .boca .aesq{
+                height: 20px;
+                width:63px;
+                right: 30px;
+                background: lightcoral;
+                border-radius: 700% 200% 0px 0px / 700% 200% 0px 0px;
+            }
+
+            .boca .adre{
+                height: 20px;
+                width:63px;
+                background: lightcoral;
+                left: 30px;
+                border-radius: 200% 700% 0px 0px / 200% 700% 0px 0px;
+                bottom: 20px;
+            }
+
+            .boca .abaix{
+                width: 220px;
+                height: 220px;
+                background:lightcoral;
+                clip-path: ellipse(37% 13% at 48% 100%);
+                bottom: 20px;
+                right: 39px;
+                transform: rotate(180deg);
+            }
+
+            .boca .comi1{
+                width: 42px;
+                height: 15px;
+                background: lightcoral;
+                border-radius: 0px 0px 50% 0px;
+                z-index: 201;
+                bottom: 250px;
+                left: 60px;
+                transform: rotate(20deg);
+            }
+
+            .boca .comi2{
+                width: 42px;
+                height: 15px;
+                background: lightcoral;
+                border-radius: 0px 0px 0px 50%;
+                z-index: 201;
+                bottom: 265px;
+                right: 60px;
+                transform: rotate(-20deg);
+            }
+    
+    .coll{
+        width: 360px;
+        height: 300px;
+        background: #C49F8D;
+        bottom: 106px;
+        z-index: -10;
+    }
+        .coll .bolaesq{
+            width: 150px;
+            height: 360px;
+            background: rgb(47, 36, 15);
+            border-radius:50%;
+            transform: rotate(10deg);
+            z-index: -9;
+            right: 220px;
+        }
+
+        .coll .boladre{
+            width: 150px;
+            height: 360px;
+            background: rgb(47, 36, 15);
+            border-radius:50%;
+            transform: rotate(-10deg);
+            z-index: -9;
+            left: 220px;
+            bottom: 360px;
+        }
+
+.brac1{
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
+    border-radius: 20px 0px 0px 0px;
+    box-shadow: -4px 0px 0px black;
+}
+
+.brac2{
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left: 800px;
+    bottom: 0px;
+    border-radius: 0px 20px 0px 0px;
+    box-shadow: 4px 0px 0px black;
+}
+
+.roba{
+    width: 1200px;
+    height: 600px;
+    background: DarkSlateGray;
+    bottom: 190px;
+    z-index: -8;
+    border-radius: 40% 40% 0px 0px;
+}
+
+    .roba .cuello{
+        width: 284px;
+        height: 100px;
+        background: #C49F8D;
+        border-radius: 50%;
+        bottom: 50px;
+    }
+
+    .roba .cruz {
+        width: 40px;
+        height: 60px;
+        background: yellow;
+        top: 110px;
+        clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    }
+
+    .roba .cadena {
+        width: 300px;
+        height: 385px;
+        background: transparent;
+        border-radius: 50%;
+        bottom: 350px;
+        box-shadow: 0px 3px 0px yellow;
+    }
+
+    .roba .boli{
+        width: 5px;
+        height: 20px;
+        background: yellow;
+        bottom: 350px;
+    }
+
+
+
+@keyframes destello {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.1);
+    }
+  }
+
+
+
+#jgomez {
+    transform: ;
+}
+
+
